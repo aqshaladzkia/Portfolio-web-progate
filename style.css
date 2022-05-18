@@ -48,6 +48,11 @@ main section{
 	grid-column-gap:10px;
 	justify-items:center;
 }
+.main-project p{
+	color: #727272;
+	font-size: 14px;
+	margin-top: 8px;
+}
 .project-title{
 	font-weight: bold;
 	color: #303030;
@@ -62,6 +67,9 @@ main section{
 	word-wrap: break-word;
 	width: 250px;
 	color: #727272;
+	font-size: 14px;
+	margin-top: 12px;
+	text-align: justify;
 }
 .project-tile img{
 	width: 250px;
@@ -90,15 +98,15 @@ main button {
 }
 main a,main a:hover,main a:active,main a:focus,main a:visited{
 	text-decoration:none;
-	color:#000000;
+	color:#dadada;
 }
 main section div a:hover{
 	border-radius:5px;
 	box-shadow:
+		1px 1px 5px,
 		1px 1px 10px,
-		-1px 1px 10px,
-		-1px 1px 10px,
-		-1px 1px 10px;
+		1px 1px 10px,
+		1px 1px 10px;
 }
 		
 a, a:hover, a:active, a:focus, a:visited{
