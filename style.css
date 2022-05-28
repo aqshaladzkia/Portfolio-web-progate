@@ -95,10 +95,11 @@ main button {
 	align-self:center;
 	padding:5px 10px 5px 10px;
 	margin-bottom:20px;
+	color:black;
 }
 main a,main a:hover,main a:active,main a:focus,main a:visited{
 	text-decoration:none;
-	color:#dadada;
+	color:#969696;
 }
 main section div a:hover{
 	border-radius:5px;
@@ -156,30 +157,4 @@ footer div a img{
 }
 footer div p{
 	text-align:center;
-}
-@media (max-width:800px){
-	nav{
-	background-color:#C5CAE9;
-	height:100px;
-	width:100%;
-	position:fixed;
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	color:black;
-	z-index:1;
-}
-	main section{
-		margin:20px 10% 20px 10%;
-		display:grid;
-		grid-template:repeat(6,1fr)/1fr;
-		justify-items:center;
-	}
-	footer{
-		background-color:#A7FFEB;
-		height:100vh;
-		display:flex;
-		align-items:center;
-		justify-content:space-evenly;
-	}
 }
